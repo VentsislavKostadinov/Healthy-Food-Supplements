@@ -19,7 +19,7 @@ app.config(["$routeProvider", function ($routeProvider) {
 
 app.controller("GainMuscleMass", ["$scope", function ($scope) {
 
-    $scope.creatineSupplement = "Creatin";
+    $scope.creatineSupplement = "Creatine";
     $scope.creatineDescription = "Creatine is made from three amino acids: arginine, glycine and methionine. " +
         "Anecdotal reports and scientific studies alike find that guys who take creatine gain a good 10 pounds or more of bodyweight and increase strength dramatically. " +
         "Creatine works in a number of ways. For one, it increases the amount of fast energy in your muscles needed to perform reps in the gym. " +
