@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat" );
+
+$white-color: #ffffff;
+$black-color: #000000;
+
+@mixin card-positioning() {
+
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* HEADER */
+
+#headTitle {
+
+}
+
+header {
+
+  background: $black-color;
+  color: $white-color;
+
+  h1 {
+    letter-spacing: 6px;
+  }
+}
+
+/* NAVIGATION */
+
+.bg-dark {
+  background-color: $black-color !important;
+  margin-top: -8px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+  color: $white-color;
+  font-size: 20px;
+
+  &:hover {color: #40ff00;}
+
+}
+
+/* Sections */
+
+#muscle-mass, #weight-loss, #energySection {
+  padding-top: 42px;
+}
+
+.card {
+
+  border: none;
+  border-radius: 0;
+
+  .card-img-top {
+
+   @include card-positioning();
+  }
+
+  .card-title {
+    @include card-positioning();
+  }
+
+  .card-text {
+
+    @include card-positioning();
+  }
+
+}
+
+
+@media(max-width: 992px) {
+
+  .card {
+
+    .card-img-top {width: 100%;}
+    .card-title {width: 100%;}
+    .card-text {width: 100%;}
+  }
+}
+
+.navbar-dark {
+
+  .navbar-toggler {
+
+    border-color: rgba(255,255,255, 0.9);
+  }
+}
+
+/* FOOTER */
+
+footer {
+
+  background: $black-color;
+
+  h2 {
+    color: $white-color;
+    text-align: center;
+  }
+
+  .fab {font-size: 43px; }
+}

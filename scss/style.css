@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  font-family: Montserrat, sans-serif; }
+
+/* HEADER */
+header {
+  background: #000000;
+  color: #ffffff; }
+  header h1 {
+    letter-spacing: 6px; }
+
+/* NAVIGATION */
+.bg-dark {
+  background-color: #000000 !important;
+  margin-top: -8px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 20px; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #40ff00; }
+
+/* Sections */
+#muscle-mass, #weight-loss, #energySection {
+  padding-top: 42px; }
+
+.card {
+  border: none;
+  border-radius: 0; }
+  .card .card-img-top {
+    width: 70%;
+    margin: auto; }
+  .card .card-title {
+    width: 70%;
+    margin: auto; }
+  .card .card-text {
+    width: 70%;
+    margin: auto; }
+
+@media (max-width: 992px) {
+  .card .card-img-top {
+    width: 100%; }
+  .card .card-title {
+    width: 100%; }
+  .card .card-text {
+    width: 100%; } }
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.9); }
+
+/* FOOTER */
+footer {
+  background: #000000; }
+  footer h2 {
+    color: #ffffff;
+    text-align: center; }
+  footer .fab {
+    font-size: 43px; }
+
+/*# sourceMappingURL=style.css.map */
